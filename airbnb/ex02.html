@@ -36,20 +36,35 @@
             box-shadow: -3px -3px 0px -1px #9A9A9A;
         }
 
+        .box-search {
+            position: relative;
+        }
+
+        .fa-solid {
+            position: absolute;
+        }
+
         .tf-search2 {
             height: 40px;
-            width: 300px;
+            width: 275px;
             font-size: 20px;
+            display: inline-block;
             border-radius: 4px;
             border: 1px solid #EEEEEE;
             box-shadow: -3px -3px 0px -1px #9A9A9A;
+            padding: 0 0 0 30px;
+        }
+
+        .icon-search {
+            position: absolute;
+            top: 10px;
+            left: 10px;
         }
     </style>
 
 </head>
 
 <body>
-    <i class="fa-solid fa-magnifying-glass"></i>
     <h1>버튼</h1>
     <hr>
     <input type="button" value="검색" class="btn-search">
@@ -73,7 +88,11 @@
     <hr>
     <input type="text" class="tf-search" placeholder="🔎Search...">
     <br><br>
-    <input type="text" class="tf-search2" placeholder="Search...">
+
+    <div class="box-search">
+        <input type="text" class="tf-search2" placeholder="Search...">
+        <i class="fa-solid fa-magnifying-glass icon-search"></i>
+    </div>
 
 </body>
 
