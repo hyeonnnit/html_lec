@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .main {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* 파란색 박스는 부모 박스를 만들어서 가운데 배치 */
+        .flex-container {
+            width: 80%;
+            height: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* 배치는 디폴트방향이 있음. flex 는 기본 방향이 가로.
+            바라보고 있는 축에 따라서 정렬 방향이 달라짐.*/
+            /* 디스플레이가 flex 가 되면 전부 인라인-블록되면서 일자로 정렬됨.
+            가운데 배치는 무조건 부모를 만들어서 하자*/
+            background-color: DodgerBlue;
+        }
+
+        .flex-container>div {
+            /* flex-container>div  > 이거는 바로 밑의 div만 설정을 함.
+            flex-container div  로 > 가 없으면 플렉스컨테이너 밑에 있는 모든 div 에 영향*/
+            background-color: #F1F1F1;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+            height: 50px;
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+    </div>
+</body>
+
+</html>
