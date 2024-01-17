@@ -1,16 +1,55 @@
 .main {
     border: 0.5px solid #F3F3F5;
     position: relative;
+
 }
 .text-top {
     display: grid;
     grid-template-columns: auto auto auto;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
 
 }
 .text-top2 {
     display: grid;
     grid-template-columns: auto auto auto auto;
 }
+.t1 {
+    margin-left: 10px;
+    font-weight: bold;
+}
+.zuzu {
+    margin: 0;
+}
 .t6 {
-    align-self: end;
+    display: grid;
+    justify-content:flex-end;
+    margin-right: 20px;
+    font-size:14px;
+    margin-top: 3px;
+}
+.color {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.color-container {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.img {
+    background-image: url("./vacation.jpg");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 880px;
+}
+.color-top {
+    background-color: #F8ECEB;
+    height: 800px;
+}
+.text {
+    font-size: 80px;
+
 }
