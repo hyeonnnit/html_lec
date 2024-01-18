@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+main{
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    background-color: #FAFAFA;
+
+}
+.header{
+    padding-top: 50px;
+}
+.main-box{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 700px;
+}
+.sub-box {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    width: 430px;
+    height: 440px;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid rgb(214, 214, 214);
+    margin-top: 40px;
+}
+.sign-box{
+    display: grid;
+    position: relative;
+    width: 430px;
+    right: 30px;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    border: 1px solid rgb(214, 214, 214);
+    justify-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.login-box{
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    margin-top: 0px;
+}
+.text-sign {
+    display: grid;
+    text-decoration: none;
+    color: #54B3F8;
+    font-weight: 900;
+    justify-items: center;
+    margin-top: 0;
+  }
+.text-box{
+    display: grid;
+    grid-template-columns: repeat(12,auto);
+}
+.img-icon{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-self: center;
+}
+.img-ios{
+    width: 150px;
+}
+.img-android{
+    width: 150px;
+}
+.img-or{
+    width: 100%;
+    margin: 0;
+}
+.text-login {
+    display: grid;
+    justify-content: center;
+    font-weight: 900;
+    color: #385185;
+    margin: 0;
+}
+.facebook{
+    margin-top: 0;
+}
+.text1{
+    margin-top: 0;
+}
+.img-insta{
+    margin: 0px;
+}
+.info{
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(190, 190, 190);
+}
+.div-logo{
+    display: grid;
+    justify-content: center;
+    margin-top: 0;
+}
+button{
+    width: 100%;
+    background-color: #B2DFFC;
+    border-radius: 5px;
+    height: 35px;
+    border: 0;
+    color: white;
+    font-weight: 900;
+}
